@@ -1,0 +1,43 @@
+unsupervised learning
+CLUSTERING: Act of organizing similar objects into group
+forming a insight about the data
+
+Centeroids (K value)
+we usually take distance as the parameter for testing
+
+1.K- is the point to decide the number cluster to form
+2.randomly pick the centroid for the each cluster
+3.Assignment of each points on the closest centroids
+4. Recomputation of centroids as the mean of all data points assigned
+5. Moment we end up with no further movement we call it as done
+
+
+Eculidean Distance:
+(by calculating distance between each data point and the centroids)
+
+Notes:
+1. it calculates the measure of straight-line distance between two points
+2. smaller distance , it is closely to the other points
+
+How do we find the anomalies among our data?
+since clustering forms group among the scatter data to find its group
+This can be also called data analysis tool.
+
+
+FLOW chart:
+
+Start the scatering --> initiate no of clusters ===> selection of centroids
+---> calculater the distance----> if the distance is min--> move the same cluster
+                               --> if the distance is max --> move the another cluster
+
+
+APPLICATIONS:
+1. search engine
+2. Insurance Fraud detection
+3. Customer segmentation
+4. Document classification
+
+
+Issues:
+1. cluster wont be equally distributed
+2. it can still have outliers
